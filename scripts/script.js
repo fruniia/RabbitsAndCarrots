@@ -88,13 +88,13 @@ function startPosition() {
 function startOver() {
     points = 0;
     tagline = " Starta";
-    pic.setAttribute("src", "images/rabbitandcarrot.gif");
+    pic.setAttribute("src", "/images/rabbitandcarrot.gif");
     printPosition(positionX, positionY, tagline);
     startPosition();
 }
 
 function showBackground(positionX, positionY) {
-    pic.setAttribute("src", "images/" + positionX + positionY + ".jpg");
+    pic.setAttribute("src", "/images/" + positionX + positionY + ".jpg");
 }
 
 function rabbitPosition() {
