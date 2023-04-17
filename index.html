@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabbits and carrots</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>RABBITS AND CARROTS</h1>
+    </header>
+    <div>
+        <img src="images/rabbitandcarrot.gif" alt="En morot som jagas av en kanin" id="mainpicture">
+        <img src="images/carrot.gif" alt="En morot" id="carrot" class="carrot hidden">
+        <img src="images/evil_rabbit.gif" alt="En kanin" id="rabbit" class="rabbit hidden">
+        <span id="position"></span>
+        <span id="points"></span>
+        <span id="beer"></span>
+    </div>
+    <div class="button-grid">
+        <input type="button" class="button-grid north" id="up" value="Norr"></input>
+        <input type="button" class="button-grid west" id="left" value="Väster"></input>
+        <input type="button" class="button-grid east" id="right" value="Öster"></input>
+        <input type="button" class="button-grid south" id="down" value="Söder"></input>
+        <input type="button" class="button-grid middle" id="restart" value="Omstart"></input>
+    </div>
+    <div id="playerGrid">
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
