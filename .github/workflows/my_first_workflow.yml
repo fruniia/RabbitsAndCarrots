@@ -8,5 +8,6 @@ jobs:
     steps:
       - run: echo "The amazing job has started"
       - run: echo "This was triggered by a ${{github.event_name}} event."
+      - run: echo "Branch ${{github.branches}}"
       - run: echo "This was run on ${{runner.os}}"
       - run: echo "The amazing job is complete"
